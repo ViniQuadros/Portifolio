@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center; /* Centraliza todo o conteúdo */
+}
+.navbar {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem 0;
+}
+.navbar a {
+    color: rgb(0, 0, 0);
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.content {
+    padding: 2rem;
+}
+h1 {
+    font-size: 2.5rem; /* Aumenta o tamanho da fonte do título */
+}
+.project {
+    margin: 2rem auto;
+    max-width: 600px;
+}
+.project video {
+    width: 100%;
+    height: auto;
+}
+.project p {
+    font-size: 1.2rem; /* Aumenta o tamanho da fonte da descrição */
+}
+.divider {
+    border-top: 1px solid rgb(0, 0, 0);
+    margin: 2rem 0;
+}
