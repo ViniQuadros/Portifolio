@@ -1,23 +1,32 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background: radial-gradient(
+        circle,             /* Forma do degradê: círculo */
+        rgb(0, 55, 255),   /* Cor do centro */
+        rgb(0, 21, 104)    /* Cor das bordas */
+    );
+    color: rgb(255, 255, 255);
     text-align: center; /* Centraliza todo o conteúdo */
 }
 .navbar {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(10, 48, 198);
     text-align: center;
     padding: 1rem 0;
 }
 .navbar a {
-    color: rgb(0, 0, 0);
-    margin: 0 15px;
+    color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem; /* Adiciona padding para o espaço do quadrado */
+    transition: all 0.3s ease; /* Suaviza a transição ao passar o mouse */
+    border: 2px solid transparent; /* Define uma borda transparente inicialmente */
 }
 .navbar a:hover {
-    text-decoration: underline;
+    text-decoration: none; /* Remove o sublinhado padrão */
+    border-color: rgb(106, 0, 255); /* Define a cor do quadrado */
+    background-color: rgba(0, 8, 255, 0.5); /* Adiciona um leve fundo colorido */
+    border-radius: 4px; /* Adiciona cantos arredondados à borda */
 }
 .content {
     padding: 2rem;
